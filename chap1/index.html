@@ -1,0 +1,507 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- STYLESHEET -->
+    <link rel="stylesheet" href="./style.css" />
+
+    <!-- ICONSCOUT (LINE) -->
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+
+    <!-- BOOTSTRAP -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+
+    <!-- SWIPPER JS -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+
+    <title>Challenge_01</title>
+  </head>
+  <body>
+    <!-- MAIN SECTION -->
+
+    <div class="main-section">
+      <!-- NAVBAR -->
+      <div class="container_navbar">
+        <div class="nav_logo">
+          <img src="./img/Rectangle 74.svg" />
+        </div>
+        <!-- Toogle Menu Button -->
+        <span class="menu-btn" onclick="openNav()">&#9776;</span>
+        <ul class="nav_menu">
+          <li><a href="#service-section">Our Service</a></li>
+          <li><a href="#why_us-section">Why Us</a></li>
+          <li><a href="#testimonial-section">Testimonials</a></li>
+          <li><a href="#faq-section">FAQ</a></li>
+          <a href="index.html" class="btn btn-success">Register</a>
+        </ul>
+      </div>
+      <!-- Responsive Side navBar -->
+      <div class="side_nav" id="side_nav">
+        <a href="#" class="close-btn" onclick="closeNav()">&#10060;</a>
+        <a href="#service-section">Our Services</a>
+        <a href="#why_us-section">Why Us</a>
+        <a href="#testimonial-section">Testimonial</a>
+        <a href="#faq-section">FAQ</a>
+        <a href="index.html" class="btn btn-success">Register</a>
+      </div>
+      <!-- END NAVBAR -->
+
+      <!-- HEADER -->
+      <div class="container_header">
+        <div class="header-left">
+          <h1>Sewa & Rental Mobil Terbaik di kawasan Bogor, Indonesia</h1>
+          <p>
+            Selamat datang di Binar Car Rental. Kami menyediakan mobil kualitas
+            terbaik dengan harga terjangkau. Selalu siap melayani kebutuhanmu
+            untuk sewa mobil selama 24 jam.
+          </p>
+          <a href="index.html" class="btn btn-success">Mulai Sewa Mobil</a>
+        </div>
+        <div class="header-right">
+          <img src="./img/car-img.png" />
+          <div class="background_img"></div>
+        </div>
+      </div>
+      <!-- END HEADER -->
+    </div>
+
+    <!-- END of MAIN SECTION -->
+
+    <!-- OUR SEVICE SECTION -->
+
+    <div class="our_service-section" id="service-section">
+      <div class="our_service-container">
+        <div class="our_service-left">
+          <img src="./img/img_service.svg" />
+        </div>
+        <div class="our_service-right">
+          <h1>Best Car Rental for any kind of trip in Bogor, Indonesia!</h1>
+          <p>
+            Sewa mobil di Bogor, Indonesia bersama Binar Car Rental jaminan
+            harga lebih murah dibandingkan yang lain, kondisi mobil baru, serta
+            kualitas pelayanan terbaik untuk perjalanan wisata, bisnis, wedding,
+            meeting, dll.
+          </p>
+          <ul>
+            <li>
+              <i class="uil uil-check"></i>Sewa Mobil Dengan Supir di Bali 12
+              Jam
+            </li>
+            <li>
+              <i class="uil uil-check"></i>Sewa Mobil Lepas Kunci di Bali 24 Jam
+            </li>
+            <li>
+              <i class="uil uil-check"></i>Sewa Mobil Jangka Panjang Bulanan
+            </li>
+            <li>
+              <i class="uil uil-check"></i>Gratis Antar - Jemput Mobil di
+              Bandara
+            </li>
+            <li>
+              <i class="uil uil-check"></i>Layanan Airport Transfer / Drop In
+              Out
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <!-- END of OUR SEVICE SECTION -->
+
+    <!-- WHY US SECTION -->
+
+    <div class="why_us-section" id="why_us-section">
+      <div class="why_us-top">
+        <h1>Why Us ?</h1>
+        <p>Mengapa harus pilih Binar Car Rental ?</p>
+      </div>
+      <div class="why_us-bottom">
+        <articles class="why_us">
+          <span class="why_us-icon rounded-circle"
+            ><i class="uil uil-thumbs-up"></i
+          ></span>
+          <h5>Mobil Lengkap</h5>
+          <p>
+            Tersedia banyak pilihan mobil, kondisi masih baru, bersih dan
+            terawat
+          </p>
+        </articles>
+        <articles class="why_us">
+          <span class="why_us-icon rounded-circle"
+            ><i class="uil uil-tag-alt"></i
+          ></span>
+          <h5>Harga Murah</h5>
+          <p>
+            Harga murah dan bersaing, bisa bandingkan harga kami dengan rental
+            mobil lain
+          </p>
+        </articles>
+        <articles class="why_us">
+          <span class="why_us-icon rounded-circle"
+            ><i class="uil uil-clock"></i
+          ></span>
+          <h5>Layanan 24 Jam</h5>
+          <p>
+            Siap melayani kebutuhan Anda selama 24 jam nonstop. Kami juga
+            tersedia di akhir minggu
+          </p>
+        </articles>
+        <articles class="why_us">
+          <span class="why_us-icon rounded-circle"
+            ><i class="uil uil-award-alt"></i
+          ></span>
+          <h5>Sopir Profesional</h5>
+          <p>
+            Sopir yang profesional, berpengalaman, jujur, ramah dan selalu tepat
+            waktu
+          </p>
+        </articles>
+      </div>
+    </div>
+
+    <!-- END of WHY US SECTION -->
+
+    <!-- TESTIMONIAL SECTION -->
+
+    <div class="testimonial-section mySwiper" id="testimonial-section">
+      <div class="testimonial-title">
+        <h1>Testimonial</h1>
+        <p>Berbagai review positif dari para pelanggan kami</p>
+      </div>
+      <div class="testimonial-container swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="testimonial-avatar">
+            <img src="./img/testi1person.svg" />
+          </div>
+          <div class="testimonial-body">
+            <img src="./img/img-rate.svg" alt="rating" />
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, atque expedita libero dolore ut ullam a consectetur
+              doloremque recusandae aspernatur laboriosam, dolores nam
+              architecto. Fuga."
+            </p>
+            <p><strong>John Dee 32, Bali</strong></p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="testimonial-avatar">
+            <img src="./img/testi2person.svg" />
+          </div>
+          <div class="testimonial-body">
+            <img src="./img/img-rate.svg" alt="rating" />
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, atque expedita libero dolore ut ullam a consectetur
+              doloremque recusandae aspernatur laboriosam, dolores nam
+              architecto. Fuga."
+            </p>
+            <p><strong>Ana Levronka 25, Malang</strong></p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="testimonial-avatar">
+            <img src="./img/testi3person.png" />
+          </div>
+          <div class="testimonial-body">
+            <img src="./img/img-rate.svg" alt="rating" />
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, atque expedita libero dolore ut ullam a consectetur
+              doloremque recusandae aspernatur laboriosam, dolores nam
+              architecto. Fuga."
+            </p>
+            <p><strong>Chris Laue 30, Bandung</strong></p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="testimonial-avatar">
+            <img src="./img/testi4person.png" />
+          </div>
+          <div class="testimonial-body">
+            <img src="./img/img-rate.svg" alt="rating" />
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, atque expedita libero dolore ut ullam a consectetur
+              doloremque recusandae aspernatur laboriosam, dolores nam
+              architecto. Fuga."
+            </p>
+            <p><strong>Aashna Zakhfa 23, Bogor</strong></p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="testimonial-avatar">
+            <img src="./img/testi5person.png" />
+          </div>
+          <div class="testimonial-body">
+            <img src="./img/img-rate.svg" alt="rating" />
+            <p>
+              "Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Cupiditate, atque expedita libero dolore ut ullam a consectetur
+              doloremque recusandae aspernatur laboriosam, dolores nam
+              architecto. Fuga."
+            </p>
+            <p><strong>Lauriel Zech 26, Jakarta</strong></p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <!-- END of TESTIMONIAL SECTION -->
+
+    <!-- GETTING STARTED SECTION -->
+
+    <div class="getting_started-section">
+      <div class="getting_started-container">
+        <h1>Sewa Mobil di Bogor, Indonesia Sekarang</h1>
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quas nam
+          eius expedita qui eum repudiandae delectus illo consequatur repellat,
+          ducimus, ad sunt reiciendis ab eos?
+        </p>
+        <a href="index.html" class="btn btn-success">Mulai Sewa Mobil</a>
+      </div>
+    </div>
+
+    <!-- END of GETTING STARTED SECTION -->
+
+    <!-- FAQ SECTION -->
+
+    <div class="faq-section" id="faq-section">
+      <div class="faq-left">
+        <h1>Frequently Asked Question</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente,
+          iusto.
+        </p>
+      </div>
+      <div class="faq-right">
+        <div class="accordion" id="accordionPanelsStayOpenExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+              <button
+                class="accordion-button collapsed rounded"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseOne"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseOne"
+              >
+                Apa saja syarat yang dibutuhkan?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseOne"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingOne"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatem, explicabo.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+              <button
+                class="accordion-button collapsed border-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseTwo"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseTwo"
+              >
+                Berapa hari minimal sewa mobil lepas kunci?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingTwo"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id,
+                veniam.
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+              <button
+                class="accordion-button collapsed border-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseThree"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseThree"
+              >
+                Berapa hari sebelumnya sebaiknya booking sewa mobil?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingThree"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolorem, voluptatibus!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFour">
+              <button
+                class="accordion-button collapsed border-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFour"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFour"
+              >
+                Apakah Ada biaya antar-jemput?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFour"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolorem, voluptatibus!
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="panelsStayOpen-headingFive">
+              <button
+                class="accordion-button collapsed border-top"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#panelsStayOpen-collapseFive"
+                aria-expanded="false"
+                aria-controls="panelsStayOpen-collapseFive"
+              >
+                Bagaimana jika terjadi kecelakaan?
+              </button>
+            </h2>
+            <div
+              id="panelsStayOpen-collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="panelsStayOpen-headingFive"
+            >
+              <div class="accordion-body">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Dolorem, voluptatibus!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- END of FAQ SECTION -->
+
+    <!-- FOOTER -->
+
+    <footer>
+      <div class="footer_container">
+        <div class="footer_1">
+          <p>Jalan Suroyo No. 161 Mayangan Kota Probolonggo 672000</p>
+          <p>binarcarrental@gmail.com</p>
+          <p>081-233-334-808</p>
+        </div>
+
+        <div class="footer_2">
+          <ul class="permalinks">
+            <li>Our services</li>
+            <li>Why Us</li>
+            <li>Testimonial</li>
+            <li>FAQ</li>
+          </ul>
+        </div>
+
+        <div class="footer_3">
+          <p>Connect with us</p>
+          <ul class="footer_social">
+            <li>
+              <a href="#"><i class="uil uil-facebook-f"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-instagram-alt"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-twitter"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-envelope"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="uil uil-youtube"></i></a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer_4">
+          <p>Copyright &copy;Binar 2022</p>
+          <img src="./img/Rectangle 74.svg" />
+        </div>
+      </div>
+    </footer>
+
+    <!-- END of FOOTER -->
+
+    <!-- JAVASCRIPT -->
+    <script src="./main.js"></script>
+
+    <!-- BOOTSTRAP -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- SWIPPER JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        //when window width is >= 600px
+        breakpoints: {
+          1024: {
+            slidesPerView: 3,
+          },
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>
